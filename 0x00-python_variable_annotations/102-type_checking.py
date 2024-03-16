@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 using mypy to validate the below piece of code
 and applying any necessary changes
