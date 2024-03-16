@@ -13,6 +13,6 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     multiplier by multiplier
     """
     def func(x: float) -> float:
-        return x * x
+        return x * multiplier
     x: Callable[[float], float] = func
     return x
